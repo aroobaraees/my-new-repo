@@ -105,3 +105,26 @@ padding: 10px 20px !important;
 .hr-color{
     color:var(--hr-color) !important;
 }
+
+
+
+
+
+
+/* mobile media query */
+
+
+
+@media screen and (min-width:0px) and (max-width:480px) {
+    .btn{
+        width: 45%;
+    }
+
+    footer{
+        justify-content: center;
+    }
+
+
+    .nav{
+        gap: 0 !important;
+}
